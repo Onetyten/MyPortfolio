@@ -1,7 +1,7 @@
 import React from 'react'
 import Intro_nav from './Intro_nav'
 import Intro_text from './Intro_text'
-import Profileimg from '/Images/profile_image.png'
+import Profileimg from './profile_image.png'
 
 export default function 
 () {
