@@ -1,8 +1,7 @@
 import React from 'react'
-import Intro_nav from '../Intro/Intro_nav'
-import Intro_text from '../Intro/Intro_text'
 import Skill_card from './Skill_card'
 import ReactImg from './react.png'
+
 
 export default function Skills() {
   return (
