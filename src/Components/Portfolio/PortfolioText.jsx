@@ -8,7 +8,7 @@ const{name,desc} = props
     <h2 className='text-center text-white  text-xl lg:text-2xl font-bold'>
       {name}
     </h2>
-    <p className='text-center text-white text-sm lg:text-md font-light'>
+    <p className='text-center text-white text-sm lg:text-lg font-light'>
       {desc}
     </p>
     <i className="fa-solid fa-circle-down text-4xl text-center text-my-yellow"></i>

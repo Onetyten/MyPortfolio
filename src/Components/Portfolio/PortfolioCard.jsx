@@ -18,7 +18,7 @@ export default function PortfolioCard(props) {
   
   return (
     <a href={link}>
-        <div  className="lg:w-96  w-72 h-72 bg-my-blue  flex-row grid justify-center  items-center flex-wrap px-5  lg:mr-7   mr-0 rounded-xl lg:rounded-3xl mb-10  bg-cover bg-no-repeat bg-center hover:bg-blend-multiply" style={{ backgroundImage: `url(${src})` }} onMouseEnter={ShowText} onMouseLeave={HideText}>
+        <div  className="lg:w-[500px] lg:h-80  w-72 h-72 bg-my-blue  flex-row grid justify-center  items-center flex-wrap px-5  lg:mr-7   mr-0 rounded-xl lg:rounded-3xl mb-10  bg-cover bg-no-repeat bg-center hover:bg-blend-multiply" style={{ backgroundImage: `url(${src})` }} onMouseEnter={ShowText} onMouseLeave={HideText}>
 
         {showInfo && (<PortfolioText name = {name} desc = {desc} showInfo ={showInfo} />)}
 
