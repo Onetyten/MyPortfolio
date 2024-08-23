@@ -11,7 +11,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/MyPortfolio/'>
     <div className='overflow-x-hidden overflow-y-scroll no-scrollbar bg-my-blue'>
 
       <div className='border-2 border-my-yellow rounded-3xl'>
