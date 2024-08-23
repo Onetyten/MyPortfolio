@@ -12,7 +12,7 @@ export default function
       <Intro_text/>
       
 
-      <img src="src/assets/profile_image.png" className='absolute bottom-0 right-0 w-3/6 lg:w-2/6 md:w-3/6 object-cover animate-rise ' alt="" />
+      <img src="./src/assets/profile_image.png" className='absolute bottom-0 right-0 w-3/6 lg:w-2/6 md:w-3/6 object-cover animate-rise ' alt="" />
 
 
 
