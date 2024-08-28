@@ -3,8 +3,9 @@ import PortfolioCard from './PortfolioCard'
 import MaurysKitchen from './Maury.png'
 import Cara from './Cara1.png'
 import Apod from './Apod.png'
+import Fitflow from'./Fitflow.png'
 import Blackjack from './Blackjack.png'
-import Aexus from './AexusAir.png'
+
 
 export default function Portfolio() {
 
@@ -21,9 +22,9 @@ export default function Portfolio() {
 
                 <PortfolioCard src={Apod}  name="NASA APOD" desc="This NASA Picture of the Day app delivers stunning daily images from space, accompanied by detailed descriptions. Explore the cosmos, discover breathtaking photos, and learn about the universe right from your device with a new image every day." link ="https://cosmicexplorer.netlify.app/" />
 
-                {/* <PortfolioCard src={Blackjack}  name="Caravan Blackjack" desc ="This Blackjack app offers a classic casino experience where you can play the popular card game against the dealer. Test your skills, strategize, and try to hit 21 without going over in this engaging and easy-to-play app." link ="https://mauryskitchen.netlify.app/"/>
+                {/* <PortfolioCard src={Blackjack}  name="Caravan Blackjack" desc ="This Blackjack app offers a classic casino experience where you can play the popular card game against the dealer. Test your skills, strategize, and try to hit 21 without going over in this engaging and easy-to-play app." link ="https://mauryskitchen.netlify.app/"/>*/}
 
-                <PortfolioCard src={Aexus}  name="Aexus Air" desc="This tour agency provides curated travel experiences, offering guided tours to breathtaking destinations in Las Vegas. From adventure-packed itineraries to cultural explorations, we create unforgettable journeys tailored to your preferences." link ="https://mauryskitchen.netlify.app/" /> */}
+                <PortfolioCard src={Fitflow}  name="Fitflow" desc=" The ultimate fitness companion designed to help you achieve your health goals through personalized workout plans to put you on the path towards a stronger, healthier you." link ="https://fitflowlive.netlify.app/" /> 
                 
                 
 
