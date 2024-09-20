@@ -25,6 +25,7 @@ export default function Portfolio() {
                 <PortfolioCard src={Solidus}  name="Solidus Team Manager" desc ="As the Team Manager for our project assignment system, you will oversee the organization and allocation of teams to various projects. You can manage project tags, monitor team member counts, and ensure smooth transitions between teams as projects evolve. Optimize team efficiency, and ensure successful project delivery." link ="https://solidusteammanager.netlify.app/"/>
 
                 <PortfolioCard src={Fitflow}  name="Fitflow" desc=" The ultimate fitness companion designed to help you achieve your health goals through personalized workout plans to put you on the path towards a stronger, healthier you." link ="https://fitflowlive.netlify.app/" /> 
+                {/* ok */}
               
                 
 
